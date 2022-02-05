@@ -10,7 +10,7 @@ switch to root (optional)
 `w` - write changes to disk
 
 resulting partitions:
-EFI partition - 200Mb - sda1
+EFI partition - 200M - sda1
 Linux filesystem - rest - sda2
 
 ### filesystems
@@ -21,7 +21,7 @@ Linux filesystem - rest - sda2
 `mount /dev/sda1 /mnt/boot/efi`
 
 ### install
-`basestrap /mnt base linux linux-firmware openrc vim networkmanager networkmanager-openrc doas`
+`basestrap /mnt base linux linux-firmware openrc vim elogind-openrc mkinitcpio networkmanager networkmanager-openrc doas`
 `fstabgen -U /mnt >> /mnt/etc/fstab`
 
 ### locale
