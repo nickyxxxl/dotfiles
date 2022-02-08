@@ -141,7 +141,7 @@ type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
-format-underline = #4bffdc
+format-underline = ${colors.primary}
 label = %percentage_used%%
 
 [module/wlan]
@@ -194,7 +194,7 @@ time-alt = %H:%M:%S
 
 format-prefix = ""
 format-prefix-foreground = ${colors.foreground}
-format-underline = #0a6cf5
+format-underline = ${colors.primary}
 
 label = %date% %time%
 
