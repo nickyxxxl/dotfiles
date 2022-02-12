@@ -1,3 +1,7 @@
+" number
+set nu
+set rnu
+
 " Vundle
 set nocompatible
 filetype off
