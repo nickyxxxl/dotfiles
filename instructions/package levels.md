@@ -11,7 +11,7 @@ xorg-server xorg-xinit xorg-xrandr xorg-xset xorg-xauth xorg-xprop ca-certificat
 [xorg](#xorg) pipewire pipewire-pulse pipewire-alsa
 
 # bspwm
-[xorg](#xorg) bspwm sxhkd polybar
+[xorg](#xorg) bspwm sxhkd polybar ttf-font-awesome-4
 
 # server
 docker openssh
