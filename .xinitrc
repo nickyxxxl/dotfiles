@@ -1,6 +1,15 @@
+# Audio
 /usr/bin/pipewire &
 /usr/bin/pipewire-pulse &
 /usr/bin/wireplumber &
-(sleep 1 && xrandr -s 1280x1024 && discord-development ) &
+
+# Screen
 xrdb ~/.Xresources &
-exec dwm
+xrandr -s 1920x1080
+
+# bspwm
+sxhkd &
+exec bspwm
+
+# dwm
+#exec dwm

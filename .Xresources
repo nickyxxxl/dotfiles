@@ -4,6 +4,7 @@ URxvt*boldFont:	xft:DejaVu Sans Mono:bold:pixelsize=16:antialias=true:hinting=tr
 
 *background:	#171717
 *foreground:	#b3b4b1
+*highlight:	#fabd2f
 *color0:	#1d1d1d
 *color1:	#784742
 *color2:	#427363

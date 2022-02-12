@@ -16,4 +16,4 @@ bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Screenkey manage=off
 
-pgrep -x polybar > /dev/null || polybar example &
+pgrep -x polybar > /dev/null || polybar base &
