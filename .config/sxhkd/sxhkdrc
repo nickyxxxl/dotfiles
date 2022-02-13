@@ -12,6 +12,7 @@ alt + p
 
 # make sxhkd reload its configuration files:
 alt + Escape
+    polybar-msg cmd restart
 	pkill -USR1 -x sxhkd
 	
 alt + shift + Escape
