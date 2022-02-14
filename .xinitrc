@@ -5,11 +5,13 @@
 
 # Screen
 xrdb ~/.Xresources &
-xrandr -s 1920x1080
 
 # bspwm
-sxhkd &
 exec bspwm
 
 # dwm
 #exec dwm
+
+# plasma
+#export DESKTOP_SESSION=plasma
+#exec startplasma-x11
