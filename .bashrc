@@ -8,6 +8,7 @@ alias rcon='mcrcon -H 192.168.2.128 -p minecraft'
 alias weather='curl wttr.in/Eindhoven'
 alias rsync='sudo rsync -ahr --info=progress2'
 alias sudo='doas'
+alias ls='ls --color'
 
 #merge subtitles
 merge(){
