@@ -75,3 +75,6 @@ copy dotfiles (from https://github.com/nickyxxxl/dotfiles)
 install 'plasma', 'kde-applications'
 `systemctl enable sddm.service`
 `systemctl enable NetworkManager.service`
+
+### useful command
+ip link set dev <interface> up
